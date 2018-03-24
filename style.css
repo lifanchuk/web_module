@@ -1,0 +1,42 @@
+.red {
+  background: red;
+  width: 160px;
+  height: 160px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  position: absolute;
+}
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+	margin-left: 20%;
+	margin-top: 10%;
+	position: absolute;
+	
+}
+#triangle2{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+	transform: rotate(180deg);
+	margin-left: 20%;
+	margin-top: 30%;
+	position: absolute;
+}
+.rectangle {
+	width: 160px;
+	height: 50px;
+	background: blue;
+	margin-left: 280%;
+	position: relative;
+    cursor: pointer;
+}
